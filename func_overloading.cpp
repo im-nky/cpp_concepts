@@ -7,7 +7,8 @@ class box {
                 {
                         return (l*b);
                 }
-                float area (int i)
+                /* Return type should be same, only parameters can be defer*/
+                int area (int i)
                 {
                         return (3.14*i*i);
                 }
