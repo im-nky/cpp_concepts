@@ -13,11 +13,6 @@ class box {
                 }
 };
 
-class rectangle: public shape {
-        public:
-                int volume();           
-};
-
 int main()
 {
         box b1;
