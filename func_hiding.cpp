@@ -1,6 +1,7 @@
 /*
 	Function Hiding Demonstration 
-
+	Output: Derived
+		Derived
 */
 
 #include <iostream>
@@ -20,5 +21,6 @@ int main()
 {
 	Derived d;
 	d.fun(5);
+	d.fun('a');
 	return 0;
 }
