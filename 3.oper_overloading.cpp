@@ -8,7 +8,7 @@ public:
 	int real,img;
 	Complex(int a, int b):real{a},img{b}{ }
 	void print(){cout<<real<<"+i"<<img<<endl;}
-	Complex operator + (Complex const &obj) {
+	Complex operator + (Complex const &obj) {	// Syntax is important
 		//Complex res;
 		//res.real = real+obj.real;
 		//res.img = img+obj.img;
