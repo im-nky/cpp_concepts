@@ -1,3 +1,9 @@
+/* Function Overloading: When we have multiple definition of same method in same scope know as function overloading.
+
+   Name Mangling: To distingush among different functions of same name, execution add argument information with name 
+   to differnetiate between methods. This is known as Name Mangling.
+
+*/
 #include <iostream>
 using namespace std;
 
