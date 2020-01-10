@@ -8,12 +8,14 @@ public:
 };
 
 class B:public A{
+//class B:virtual public A{
 public:
 	int b;
 	//B(){ cout <<"B() constructor is called"<<endl;}
 };
 
 class C:public A{
+//class C:virtual public A{
 public:
 	int c;
 	//C(){ cout <<"C() constructor is called"<<endl;}	
