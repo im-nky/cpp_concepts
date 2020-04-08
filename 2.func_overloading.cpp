@@ -9,7 +9,7 @@ using namespace std;
 
 class box {
         public:
-                int area (int l,int b)
+                float area (float l,flaot b)
                 {
                         return (l*b);
                 }
@@ -24,7 +24,12 @@ int main()
 {
         box b1;
         cout<<"The area of circle "<<b1.area(4)<<endl;
-        cout<<"The area of rectangle  "<<b1.area(3,4)<<endl;
+        
+         /* Here it;s must to add suffix 'f' else c++ standard will consider it as interger 
+           compiler will treat them as float. this will cause ambiguity and result into error
+        */
+
+        cout<<"The area of rectangle  "<<b1.area(3.0f,4.5f)<<endl;
         return 0;
 }
 
