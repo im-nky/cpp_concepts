@@ -25,9 +25,12 @@ class B:public A
 
 int main()
 {
-        A *a;
+	/*See here we can access functions of both base and derived class 
+	  using object of same base class object
+	*/
+        A *a,_a;
         B b;
 	a = &b;
         a->print();
-        b.print();	
+        _a.print();	
 }                    
