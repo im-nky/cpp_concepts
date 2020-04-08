@@ -6,7 +6,7 @@ using namespace std;
 class Complex {
 public:
 	int real,img;
-	Complex(int a, int b):real{a},img{b}{ }
+	Complex(int a=0, int b-0):real{a},img{b}{ }
 	void print(){cout<<real<<"+i"<<img<<endl;}
 	Complex operator + (Complex const &obj) {	// Syntax is important
 		//Complex res;
