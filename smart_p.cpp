@@ -14,7 +14,7 @@ class myint {
 
 int main() {
 	int * p = new int (5);
-	myint m = myint(p);
+	myint m(p);
 	cout << *m << endl;
 	return 0;
 }
