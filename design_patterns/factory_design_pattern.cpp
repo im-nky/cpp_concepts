@@ -44,4 +44,3 @@ int main() {
 	cin >> type;
 	Toy * v = ToyFactory::createToy(type);	
 }
-
