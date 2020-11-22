@@ -25,7 +25,7 @@ public:
 	}
 };
 
-single * single::instance=NULL;
+single * single::instance=NULL;	// Very Important for memory Allocation
 
 int main() {
 	single * s = single::get_instance();
