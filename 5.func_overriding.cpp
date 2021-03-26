@@ -1,4 +1,4 @@
-/*	Function Overriding : This Code Demonstrate Function Overloading
+/*	Function Overriding : This Code Demonstrate Function Overriding
 */
 
 #include<bits/stdc++.h>
