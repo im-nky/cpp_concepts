@@ -1,5 +1,5 @@
 /*
-	Demonstration of Data Hiding
+	Demonstration of encapsulation
 */
 
 #include <iostream>
